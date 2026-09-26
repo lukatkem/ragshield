@@ -1,5 +1,7 @@
 # RagShield — untrusted documents in, a RAG pipeline that doesn't get played
 
+[![tests](https://github.com/lukatkem/ragshield/actions/workflows/tests.yml/badge.svg)](https://github.com/lukatkem/ragshield/actions/workflows/tests.yml) ![tests](https://img.shields.io/badge/tests-19_passing-2ea44f)
+
 A from-scratch **prompt-injection & RAG-security toolkit**. Every heuristic
 inside — weighted rule scoring, unicode confusable folding, base64 payload
 validation, delimiter defusing — is implemented in this package with **zero
